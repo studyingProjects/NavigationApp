@@ -56,7 +56,7 @@
             </objects>
             <point key="canvasLocation" x="-4.3478260869565224" y="-123.21428571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Red Scene-->
         <scene sceneID="Yoc-uf-kc3">
             <objects>
                 <viewController storyboardIdentifier="redViewController" id="hCu-fX-I53" customClass="ViewController" customModule="NavigationApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -86,7 +86,9 @@
                         <viewLayoutGuide key="safeArea" id="bVp-da-N8P"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="E2D-CP-J0R"/>
+                    <navigationItem key="navigationItem" title="Red Scene" prompt="Additional info" id="E2D-CP-J0R">
+                        <barButtonItem key="backBarButtonItem" title="Back to the Red Scene" id="Bwo-m6-usB"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k4k-WD-fdZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

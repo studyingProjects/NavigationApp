@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.navigationItem.prompt = "Clue"
+        self.navigationItem.title = "Tittle of the Scene"
+        self.navigationItem.backButtonTitle = "Back"
     }
 
     @IBAction func toGreenScene(_ sender: UIButton) {
@@ -36,7 +39,6 @@ class ViewController: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
 
-    
     func NavigationOptions() {
         // 1.Возврат к определенной сцене
         // перебираем все элементы стека
